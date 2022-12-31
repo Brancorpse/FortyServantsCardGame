@@ -38,10 +38,10 @@ const ThreeCardDraw = () => {
                     <span>O Passado:</span> ({fortyDeck[0].name}) {fortyDeck[0].past}
                 </p>
                 <p>
-                    <span>O Presente:</span> ({fortyDeck[1].name}) {fortyDeck[0].present}
+                    <span>O Presente:</span> ({fortyDeck[1].name}) {fortyDeck[1].present}
                 </p>
                 <p>
-                    <span>O Futuro:</span> ({fortyDeck[2].name}) {fortyDeck[0].future}
+                    <span>O Futuro:</span> ({fortyDeck[2].name}) {fortyDeck[2].future}
                 </p>
             </div>
         </div>
