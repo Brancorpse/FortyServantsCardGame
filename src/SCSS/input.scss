@@ -1,0 +1,28 @@
+/* Configurando SCSS input do app */
+
+.input {
+    width: 50%;
+
+
+    &--question {
+        padding: 0.8rem 2rem;
+        background-color: rgb(161, 157, 157);
+        border-radius: 1rem;
+        color: #FFFF;
+        font-size: 1.6rem;
+        font-family:Arial, Helvetica, sans-serif;
+
+
+        &::placeholder {
+            color:#FFFF;
+            font-size: 1.6rem;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        &:focus-visible {
+            outline-width: 0;
+        }    
+    }
+}
+
+

@@ -1,0 +1,111 @@
+/* configurando o container principal */
+
+.container {
+    max-width: 1200px;
+    margin: 0rem auto;
+
+    .row {
+        position: relative;
+        margin: 2rem 0;
+
+        &--cards {
+            text-align: center;
+
+            & .forty-card {
+                width: 10rem;
+
+                @include respond(tablet) {
+                    -webkit-box-reflect: below 2rem -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(250, 250, 250, 0.66)));
+                    width: 20rem;
+                }
+            }
+        }
+    
+
+        &--center {
+            margin: 1rem 0;
+            text-align: center;
+
+            & h2 {
+                margin-bottom: 1rem;
+                line-height: 1;
+                font-size: 3.2rem;
+                color: #FFFF;
+
+                @include respond(tablet) {
+                    font-size: 4rem;
+                }
+            }
+        }
+
+        /* configurando leitura */
+
+        &--reading {
+            margin: 2rem auto 2rem;
+            padding: 2rem;
+            width: 85%;
+            background-color: aliceblue;
+            color: rgb(48, 46, 46);
+            border: 2px solid white;
+            border-radius: 2rem;
+        
+
+            @include respond(tablet) {
+                margin: -15rem auto 0;
+                width: 60rem;
+            }
+
+            p {
+                font-size: 1.6rem;
+                margin-bottom: 2rem;
+
+                @include respond(tablet) {
+                    font-size: 2rem;
+                }           
+
+                span {
+                    text-transform: uppercase;
+                }
+            }
+        }
+
+    /* configurando resposta */
+
+        &--answer {
+            display: flex;
+            flex-direction: column;
+            margin-left: 20%;
+            
+
+            @include respond(tablet) {
+                flex-direction: row;
+            }
+
+            .forty-card {
+                width: 15rem;
+                margin: 0rem auto;
+
+                @include respond(tablet) {
+                    margin: 2rem;
+                    width: unset;
+                } 
+            }
+
+            .forty-read {
+                border: 20px solid #fff;
+                border-radius: 10px;
+                background-color: aliceblue;
+                padding: 2rem;
+                color: rgb(26, 24, 24);
+                margin: 2rem;
+                
+
+                hr {
+                    margin: 2rem 0;
+                } 
+            }       
+
+        }
+    }
+
+}

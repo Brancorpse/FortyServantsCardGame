@@ -1,0 +1,17 @@
+/* Configuração para versões mobile */
+
+@mixin respond($breakpoint) {
+    @if $breakpoint == tablet {
+        @media only screen and (min-width: 768px) {
+            @content;
+        }
+    }    
+
+    @if $breakpoint == desktop {
+        @media only screen and (min-width: 1200px) {
+            @content;
+        }
+    }
+
+}
+
