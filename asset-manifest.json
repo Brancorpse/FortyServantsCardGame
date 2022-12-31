@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/fortyservantscardgame/static/css/main.e7099788.chunk.css",
-    "main.js": "/fortyservantscardgame/static/js/main.f69eedd2.chunk.js",
-    "main.js.map": "/fortyservantscardgame/static/js/main.f69eedd2.chunk.js.map",
+    "main.js": "/fortyservantscardgame/static/js/main.b29379d3.chunk.js",
+    "main.js.map": "/fortyservantscardgame/static/js/main.b29379d3.chunk.js.map",
     "runtime-main.js": "/fortyservantscardgame/static/js/runtime-main.8db5746c.js",
     "runtime-main.js.map": "/fortyservantscardgame/static/js/runtime-main.8db5746c.js.map",
     "static/js/2.f4838ba5.chunk.js": "/fortyservantscardgame/static/js/2.f4838ba5.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.8db5746c.js",
     "static/js/2.f4838ba5.chunk.js",
     "static/css/main.e7099788.chunk.css",
-    "static/js/main.f69eedd2.chunk.js"
+    "static/js/main.b29379d3.chunk.js"
   ]
 }
