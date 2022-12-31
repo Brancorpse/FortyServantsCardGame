@@ -8,9 +8,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start` to run the local webserver
-
 ### `npm install --save-dev node-sass` to install Node Saas
+
+### `npm start` to run the local webserver
 
 To learn more about "The Forty Servants", you can access Tommie Kelly's website here: https://www.adventuresinwoowoo.com/thefortyservants/
 
